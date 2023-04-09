@@ -1,23 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from "./components/search"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div class="mt-5">
+      <header className="text-center display-5 my-5">
+        Welcome to Your AI-enabled Manga Generator !
       </header>
+
+      <SearchBar />
     </div>
   );
 }
